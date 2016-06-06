@@ -1,17 +1,17 @@
 import { Hero } from './hero';
 export var HEROES: Hero[] = [
-  {id: 11, name: 'Mr. Nice'},
-  {id: 12, name: 'Narco'},
-  {id: 13, name: 'Bombasto'},
-  {id: 14, name: 'Celeritas'},
-  {id: 15, name: 'Magneta'},
-  {id: 16, name: 'RubberMan'},
-  {id: 17, name: 'Dynama'},
-  {id: 18, name: 'Dr IQ'},
-  {id: 19, name: 'Magma'},
-  {id: 20, name: 'Tornado'},
-  {id: 21, name: 'Destructo'},
-  {id: 22, name: 'CrazyAss'},
-  {id: 23, name: 'The Dirge'},
-  {id: 24, name: 'Flotilla the Killa'}
+  {id: 1, name: 'Mr. Nice'},
+  {id: 2, name: 'Narco'},
+  {id: 3, name: 'Bombasto'},
+  {id: 4, name: 'Celeritas'},
+  {id: 5, name: 'Magneta'},
+  {id: 6, name: 'RubberMan'},
+  {id: 7, name: 'Dynama'},
+  {id: 8, name: 'Dr IQ'},
+  {id: 9, name: 'Magma'},
+  {id: 10, name: 'Tornado'},
+  {id: 11, name: 'Destructo'},
+  {id: 12, name: 'CrazyAss'},
+  {id: 13, name: 'The Dirge'},
+  {id: 14, name: 'Flotilla the Killa'}
 ];
