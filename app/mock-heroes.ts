@@ -9,9 +9,5 @@ export var HEROES: Hero[] = [
   {id: 7, name: 'Dynama'},
   {id: 8, name: 'Dr IQ'},
   {id: 9, name: 'Magma'},
-  {id: 10, name: 'Tornado'},
-  {id: 11, name: 'Destructo'},
-  {id: 12, name: 'CrazyAss'},
-  {id: 13, name: 'The Dirge'},
-  {id: 14, name: 'Flotilla the Killa'}
+  {id: 10, name: 'Tornado'}
 ];

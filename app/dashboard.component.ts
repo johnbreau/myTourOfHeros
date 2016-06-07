@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Hero } from './hero';
 import { HeroService } from './hero-service';
 import { Router } from '@angular/router-deprecated';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'my-dashboard',
@@ -11,6 +12,10 @@ import { Router } from '@angular/router-deprecated';
 
 export class DashboardComponent implements OnInit {
 
+  constructor(
+    private router: Router,
+    private heroService: HeroService) { }
+
     heroes: Hero[] = [];
     constructor(private heroService: HeroService) { }
 
@@ -19,8 +24,8 @@ export class DashboardComponent implements OnInit {
         .then(heroes => this.heroes = heroes.slice(1,5));
     }
 
-    // getDetail(hero){
-    //   let link = ['HeroDetail',{id: hero.id}];
-    //   this.router.navigate(link);
-    // }
+    gotoDetail(hero: Hero) {
+    let link = ['HeroDetail', { id: hero.id }];
+    this.router.navigate(link);
+  }
 }
